@@ -14,4 +14,5 @@ usage
     => "Pain past is pleasure."
     irb(main):003:0> Blahblah.random
     => "We give advice, but we cannot give conduct."
-    irb(main):004:0>
+    irb(main):004:0> Blahblah[0]
+    => "A full belly is the mother of all evil"
