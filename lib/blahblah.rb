@@ -66,6 +66,6 @@ module Blahblah
   ]
 
   def self.random
-    SENTENCES[Random.rand(SENTENCES.size)]
+    SENTENCES.sample
   end
 end
