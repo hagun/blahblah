@@ -68,4 +68,9 @@ module Blahblah
   def self.random
     SENTENCES.sample
   end
+
+  def self.blah
+    self.random
+  end
+
 end
