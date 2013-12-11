@@ -73,4 +73,8 @@ module Blahblah
     self.random
   end
 
+  def self.[] i
+    SENTENCES[i % SENTENCES.size]
+  end
+
 end
